@@ -97,3 +97,8 @@
 #	--out file has an outgroup (assumes the last column in the hapmap file)
 #	--freq <INT> filters out all SNPs with a frequency less than INT in the data\n\n";
 ####
+
+###samperl.pl
+#Code samples sequences randomly from a fastq file.  
+#Run as "samperl.pl <FASTQ FILE> <NUMBER OF READS>"
+####
