@@ -78,3 +78,22 @@
 #	--inst <NAME> Defines institution column.  Default is UCD
 #	--panel <NAME> Defines panel column.  Default is \"NA\";
 ####
+
+####HapToTab.pl
+#
+#	HapToTab version 2.1 can be run as follows:
+#	
+#	HapToTab.pl <INFILE> <--snp or --bp> <INT> <OPTIONS>
+#	
+#	Where <INFILE> is a file in hapmap format.  
+#	HapToTab needs to know the window size either in SNPs or bp (e.g. --snp 100 or --bp 10000).  
+#	A negative number for SNPs will run HapToTab using only one window for the whole file.  
+#	The following options are available:
+#	
+#	--g <NAME> name the group you are running haptotab on.  default is \"all\"
+#	--maxdip format the output files for Hudson's maxdip program
+#	--maxhap format the output files for Hudson's maxhap program
+#	--nohets remove all heterozygotes (code as missing data)
+#	--out file has an outgroup (assumes the last column in the hapmap file)
+#	--freq <INT> filters out all SNPs with a frequency less than INT in the data\n\n";
+####
