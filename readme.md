@@ -14,13 +14,13 @@ the <filenames> argument accepts the wildcard * character for multiple files
 
 Optional command line arguments:
 
--q removes header (only if -f is not also chosen)
--n new sample size
--f prints out frequency counts of derived mutations at every site
---condition conditions on observing a site as polymorphic in the new sample size
---unrounded returns unrounded frequencies
---folded calculates folded SFS
---version prints version and license information
+	-q removes header (only if -f is not also chosen)
+	-n new sample size
+	-f prints out frequency counts of derived mutations at every site
+	--condition conditions on observing a site as polymorphic in the new sample size
+	--unrounded returns unrounded frequencies
+	--folded calculates folded SFS
+	--version prints version and license information
 
 
 # fastU.pl
