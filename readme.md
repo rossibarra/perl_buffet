@@ -23,7 +23,7 @@ Optional command line arguments:
 --version prints version and license information
 
 
-fastU.pl
+# fastU.pl
 
 Required command line parameters:
 
@@ -40,8 +40,8 @@ Optional command line parameters:
                -G : replaces Genbank ID's with species name (requires Bioperl installation)
 
 
-ktohap.pl
-The default format looks something like:
+# ktohap.pl
+The default format from GENOME STUDIO looks something like:
 
 [Header]
 GSGT Version	1.1.9
@@ -79,7 +79,7 @@ ktohap version 1.0 can be run as follows:
 	--panel <NAME> Defines panel column.  Default is \"NA\";
 
 
-HapToTab.pl
+# HapToTab.pl
 
 	HapToTab version 2.1 can be run as follows:
 	
@@ -98,7 +98,7 @@ HapToTab.pl
 	--freq <INT> filters out all SNPs with a frequency less than INT in the data\n\n";
 
 
-samperl.pl
+# samperl.pl
 Code samples sequences randomly from a fastq file.  
 Run as "samperl.pl <FASTQ FILE> <NUMBER OF READS>"
 
