@@ -100,5 +100,14 @@ ktohap version 1.0 can be run as follows:
 
 # samperl.pl
 Code samples sequences randomly from a fastq file.  
-Run as "samperl.pl <FASTQ FILE> <NUMBER OF READS>"
+Run as samperl.pl <FASTQ FILE> <NUMBER OF READS>
 
+#subcode.pl
+Barcode subthingy version 1.0
+
+Usage: perl subcode.pl <options>
+-i <barcode filename>  
+-n <number of barcodes> 
+-j <optional file of barcodes you want included
+
+Barcode file format should be <barcode>\t<number> on each line. Assumes you have a list of 96 or more potential barcodes. 
