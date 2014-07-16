@@ -6,6 +6,10 @@ Runs with the following command:
 
 genious_to_fasta.pl -i <filename>
 
+#vcf2hp2.pl
+
+Reformats vcf file as hapmap file.  Has a few RILAB specific options hard-coded.  Written by Jer-Ming Chia.
+
 
 # SFS.pl
 Usage:	SFS.pl -F <number of files> <filenames>
